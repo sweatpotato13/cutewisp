@@ -1,18 +1,3 @@
-## React-typescript-boilerplate
+## Cutewisp.com
 
-## Description
-
-React framework TypeScript starter repository.
-
-## Installation
-
-```bash
-$ yarn
-```
-
-## Running the app
-
-```bash
-# development
-$ yarn start
-```
+Cutewisp.com built with react

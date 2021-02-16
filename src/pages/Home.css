@@ -1,0 +1,46 @@
+/* ---- reset ---- */
+body {
+    margin: 0;
+    font: normal 75% Arial, Helvetica, sans-serif;
+  }
+  
+  /* ---- tsparticles container ---- */
+  #tsparticles {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+
+  .links {
+    bottom: 10px;
+    right: 10px;
+    position: fixed;
+    border-radius: 10px;
+    padding: 0 12px 6px 12px;
+    border: 1px solid #000;
+  }
+  
+  .links a:hover,
+  .links a:link,
+  .links a:visited,
+  .links a:active {
+    color: #000;
+    text-decoration: none;
+  }
+  
+  .links img {
+    height: 50px;
+  }
+
+  .wisp {
+    top: 10px;
+    left: 10px;
+    position: fixed;
+    border-radius: 10px;
+    padding: 0 12px 6px 12px;
+    border: 1px solid #000;
+  }
+
+  .wisp img {
+    height: 80px;
+  }

@@ -13,7 +13,7 @@ module.exports = {
 	devtool: 'eval-cheap-source-map',
 	devServer: {
 		contentBase: path.join(__dirname, 'prod'),
-		port: 4000,
+		port: 3000,
 		hot: true,
 		historyApiFallback: true
 	},
