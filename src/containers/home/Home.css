@@ -1,0 +1,53 @@
+/* ---- reset ---- */
+body {
+    margin: 0;
+    font: normal 75% Arial, Helvetica, sans-serif;
+  }
+
+  .bgimage {
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+  }
+
+  .links {
+    bottom: 10px;
+    right: 10px;
+    position: fixed;
+    border-radius: 10px;
+    padding: 0 12px 6px 12px;
+  }
+  
+  .links a:hover,
+  .links a:link,
+  .links a:visited,
+  .links a:active {
+    color: #000;
+    text-decoration: none;
+  }
+  
+  .links img {
+    height: 50px;
+  }
+
+  .wisp {
+    top: 10px;
+    left: 10px;
+    position: fixed;
+    border-radius: 10px;
+    padding: 0 12px 6px 12px;
+  }
+
+  .wisp img {
+    height: 80px;
+  }
+
+  .center { 
+    position: fixed;
+    top: 50%; 
+    left: 50%;  
+    transform: translate(-50%, -50%);
+  }
+

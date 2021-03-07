@@ -94,7 +94,14 @@ module.exports = {
 						presets: ['@babel/preset-env', '@babel/preset-react', '@babel/preset-typescript']
 					}
 				}
-			}
+			},
+			{
+				test: /\.(mp3|ogg)$/,
+				loader: 'file-loader',
+				options: {
+				   name: "assets/media/[name].[ext]?[hash]"
+				}
+			},	
 		]
 	}
 }
