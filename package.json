@@ -4,6 +4,7 @@
 	"description": "webpage for cutewisp.com",
 	"main": "index.tsx",
 	"scripts": {
+		"pm2": "pm2 start npm --name cutewisp -- run start",
 		"start": "webpack-dev-server --open",
 		"build": "webpack --config ./webpack.config.prod.js",
 		"prettier": "prettier --write \"src/**/*.ts\" \"src/**/*.tsx\""
